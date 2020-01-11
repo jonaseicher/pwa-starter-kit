@@ -15,7 +15,7 @@ class ShopItem extends LitElement {
   static get properties() {
     return {
       name: { type: String },
-      amount: { type: String },
+      amount: { type: Number },
       price: { type: String }
     };
   }
